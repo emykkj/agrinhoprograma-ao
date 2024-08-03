@@ -1,0 +1,229 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ebdcc9;
+    color: #333;
+}
+
+header {
+    background-color: #0066cc;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition:  0.3s;
+}
+header nav ul li a:hover {
+    font-size: 18px;
+    padding: 4px;
+}
+
+/*Gay*/
+
+.portal {
+    text-align: center;
+}
+
+.portal img {
+    max-width: 100%;
+    height: auto;
+}
+
+.portal nav ul {
+    list-style-type: none;
+    padding: 5px;
+    margin: 20px 0;
+}
+
+.portal nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.portal nav ul li a {
+    text-decoration: none;
+    color: #0066cc;
+    font-size: 1.6em;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    font-family: cursive;
+    background-color: #ebdcc9;
+}
+
+.fundo{
+    background-color: #2682df3f;
+    border-radius: 18px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+header {
+    background-color: #0066cc;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #ebdcc9;
+    text-decoration: none;
+}
+
+
+.portal {
+    text-align: center;
+}
+
+.portal img {
+    max-width: 100%;
+}
+
+.portal nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.portal nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.portal nav ul li a {
+    text-decoration: none;
+    color: #0066cc;
+    font-size: 1.2em;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.foto img{
+    text-align: center;
+    border-radius: 5%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #1e62a7;
+    box-shadow: 0 0 10px rgba(19, 0, 102, 0.1);
+    text-align: center;
+    border-radius: 10px;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+} 
+#contato h2{
+    padding: 1%;
+}
+#contato p{
+    padding: 1%;
+}
+
+.cad {
+    color: #0066cc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+form label,
+form input,
+form textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+form button {
+    background-color: #e2b98b;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #0066cc;
+    color: #fff;
+}
+
+footer {
+    background-color: #0066cc;
+    color: #fff;
+    text-align: center;
+    height: 80px;
+    padding-top: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0 0 10px;
+    padding: 7px;
+}
+
+footer .social-links {
+    justify-content: center;
+    gap: 15px;
+}
+
+footer .social-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    transition:  0.3s;
+    margin: 10px;
+}
+
+footer .social-links a:hover {
+    font-size: 21px;
+    padding: 4px;
+    color: #ebdcc9;
+}
+
